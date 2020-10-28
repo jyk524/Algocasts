@@ -15,7 +15,6 @@ class Queue {
   // adding to front of queue
   add(q) {
     this.queue.unshift(q);
-    return this.queue;
   }
   // remove from queue
   remove() {
